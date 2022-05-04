@@ -28,12 +28,8 @@ public class com
 
 			@Override
 			public int compare(lappy1 o1, lappy1 o2) {
-				if(o1.getRam()>o2.getRam())
-					return 1;
-				else if(o1.getRam()<o2.getRam())
-					return -1;
-				else
-					return 0;
+				return(o1.getId()-o2.getId());
+				
 				
 			}
 			
@@ -42,6 +38,21 @@ public class com
 		for (lappy1 lappy : list) {
 			System.out.println(lappy);
 		}
+		
+		
+		  	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 	

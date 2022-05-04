@@ -12,9 +12,9 @@ public class Comapre
 		la1.setId(1);
 		la1.setName("Dell");
 		la1.setRam(8);
-		
-		lappy la2 = new lappy(2, "hp", 6);
-		lappy la3 = new lappy(3, "Accer", 2);
+		lappy la2 = new lappy(3, "Accer", 2);
+		lappy la3 = new lappy(2, "hp", 6);
+	
 		
 		list.add(la1);
 		list.add(la2);
